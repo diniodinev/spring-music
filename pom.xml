@@ -238,12 +238,12 @@
 		<repository>
 			<id>nexus-deployment</id>
 			<name>Internal Releases</name>
-			<url>http://192.168.99.100:9081/content/repositories/releases/</url>
+			<url>http://nexus-server:9081/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-deployment</id>
 			<name>Internal Releases</name>
-			<url>http://192.168.99.100:9081/content/repositories/snapshots/</url>
+			<url>http://nexus-server:9081/content/repositories/snapshots/</url>
 			<uniqueVersion>false</uniqueVersion>
 		</snapshotRepository>
 	</distributionManagement>
