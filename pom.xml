@@ -7,6 +7,10 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+	<properties>
+		<repository.hostname>cisetup_nexus_1</repository.hostname>
+	</properties>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -238,13 +242,12 @@
 		<repository>
 			<id>nexus-deployment</id>
 			<name>Internal Releases</name>
-			<url>http://cisetup_nexus_1:9081/content/repositories/releases/</url>
+			<url>http://${repository.hostname}:9081/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-deployment</id>
 			<name>Internal Releases</name>
-			<url>http://cisetup_nexus_1:9081/content/repositories/snapshots/</url>
-			<uniqueVersion>false</uniqueVersion>
+			<url>http://${repository.hostname}:9081/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
