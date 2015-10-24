@@ -13,5 +13,6 @@ local.properties
 
 
 target/
+geb-reports/
 
 *.log*
