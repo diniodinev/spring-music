@@ -14,7 +14,7 @@
 				<include>**/*.css</include>
 				<include>**/*.js</include>
 			</includes>
-			<outputDirectory>/</outputDirectory>
+			<outputDirectory></outputDirectory>
 		</fileSet>
 	</fileSets>
 </assembly>
