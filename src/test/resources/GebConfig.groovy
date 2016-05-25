@@ -5,7 +5,7 @@ driver = {
     return new FirefoxDriver()
 }
 
-baseUrl = "http://appsetup_proxy_1"
+baseUrl = "http://192.168.99.100"
 
 waiting {
     timeout = 20
