@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<repository.address>cisetup_nexus_1:8081</repository.address>
+		<repository.address>nexus:8081</repository.address>
 		<spring.version>4.0.9.RELEASE</spring.version>
 
 		<gebVersion>0.12.2</gebVersion>
@@ -365,7 +365,7 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus-deployment</id>
-			<name>Internal Releases</name>
+			<name>Official Releases</name>
 			<url>http://${repository.address}/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
